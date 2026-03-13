@@ -1,0 +1,23 @@
+.yellow{
+    color:yellow;
+}
+Body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+.main{
+    min-height:700px;
+    width:100%;
+    max-width:700px;
+    border:1px solid white;
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+}
+.btn{
+    border-radius:10px;
+    width:5em;
+    height:2.5em;
+}
