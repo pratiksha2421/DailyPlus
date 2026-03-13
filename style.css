@@ -5,22 +5,61 @@ Body{
     margin: 0;
     padding: 0;
     background-color:rgb(0, 0, 0);
-    color:white;
+    color:rgb(255, 0, 0);
+    font-size: large;
 }
 .main{
     min-height:700px;
     width:100%;
     max-width:600px;
-    border:1px solid white;
+    /* border:1px solid white; */
     display: flex;
     margin:auto;
     justify-content:center;
     flex-direction:column;
     text-align:center;
+    background: #ff8a36da;
 }
 .btn{
     border-radius:5em;
     width:5em;
     height:2.4em;
-    margin:1em 0 0.2em 0.2em;
+    /* margin:1em 0 0.2em 0.2em; */
+    border: none;
+    font-size: medium;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:whitesmoke;
+}
+.logo{
+    border:2px solid white;
+    height: 6em;
+    width:6em;
+    border-radius:1em;
+    /* justify-self: center; */
+    align-self: center;
+    background-image: url("/images/logo.png");
+    background-size: contain;
+    background-color: #ffff;
+}
+h1, h3{
+    margin: 3px;
+    padding: 5px;
+    color: rgb(255, 249, 249);
+    /* font-style: oblique; */
+    
+}
+h1{
+    color: rgb(255, 228, 132);
+    line-height: 70%;
+    margin-top: 8px;
+    
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: all 0.10s ease-in;
 }
