@@ -4,36 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Join DailyPlus</title>
-    <style>
-      body {
-        margin: 0;
-        background: #ddd;
-      }
-      .mainitm{
-        margin-left: 20px;
-      }
-      .mobilescreen {
-        border: 1px dotted black;
-        width: 360px;
-        min-height: 100vh;
-        margin: 0 auto;
-        background: white;
-      }
-
-      .jointxt h1 {
-        font-size: 1.8em;
-      }
-
-      .backbtn {
-        border: none;
-        background-color: white;
-        font-size: large;
-        border-radius: 20%;
-        margin: 10px 5px;
-        text-decoration: none;
-        color: black;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="mobilescreen">
@@ -41,62 +12,67 @@
         <a class="backbtn" href="index.html">↩</a>
       </header>
       <main>
-    <section class="mainitm">
-        <!-- Txt section .................................................................. -->
+        <section class="mainitm">
+          <!-- Txt section .................................................................. -->
 
-        <section>
-          <div class="jointxt">
-            <h1>Join DailyPlus Today ✨</h1>
-            <h3>
-              Start your Habit Journey With DailyPlus. It's quick, easy, and
-              free for all!
-            </h3>
-          </div>
-        </section>
-        <!-- Input section .................................................................. -->
+          <section>
+            <div class="jointxt">
+              <h1>Join DailyPlus Today ✨</h1>
+              <h3>
+                Start your Habit Journey With DailyPlus. It's quick, easy, and
+                free for all!
+              </h3>
+            </div>
+          </section>
+          <!-- Input section .................................................................. -->
 
-        <section>
-          <label for="Email"><h2>Email</h2></label>
-          <div class="entemail">
-            <input
-              type="email"
-              id="Email"
-              class="intbox"
-              placeholder="📩 Email....."
-              required
-            />
+          <section>
+            <label for="Email"><h2 class="lableh2">Email</h2></label>
+            <div class="entemail">
+              <input
+                type="email"
+                id="Email"
+                class="intbox"
+                placeholder="📩 Email....."
+                required
+              />
+            </div>
+            <label for="Password"><h2 class="lableh2">Password .</h2></label>
+            <div class="entpass">
+              <input
+                type="password"
+                id="Password"
+                class="intbox"
+                placeholder="🔒 Password "
+              />
+            </div>
+          </section>
+          <!-- CheckBox section .................................................................. -->
+          <section class="checkbox linkA">
+            <input type="checkbox" id="agree" class="chBox" />
+            <label for="agree"
+              ><h4 class="checkbox_txt">
+                I agree to DailyPlus. <a href="#">Terms & Conditions.</a>
+              </h4></label
+            >
+          </section>
+          <!-- Signin section .................................................................. -->
+          <section class="linkA signintxt">
+            <h4>Already Have an account? <a href="#">Sign in</a></h4>
+          </section>
+<div class="orli"> ------------------------- OR -------------------------</div>
+          <!-- sign up Options section .................................................................. -->
+          <section class="optio">
+            <div class="ctn google">Continue With Google</div>
+            <div class="ctn microsoft">Continue With Microsoft</div>
+            <div class="ctn phone">Continue With Phone No.</div>
+          </section>
+          <div>
+            <a href="#" class="sign-up">Sign Up</a>
           </div>
-          <label for="Password"><h2>Password .</h2></label>
-          <div class="entpass">
-            <input
-              type="password"
-              id="Password"
-              class="intbox"
-              placeholder="🔒 Password "
-            />
-          </div>
-        </section>
-        <!-- CheckBox section .................................................................. -->
-        <section class="checkbox">
-          <input type="checkbox" id="agree" />
-          <label for="agree"
-            ><h4>
-              I agree to DailyPlus <a href="#">Terms & Conditions.</a>
-            </h4></label
-          >
-        </section>
-        <!-- Signin section .................................................................. -->
-        <section>
-          <h4>Already Have an account? <a href="#">Sign in</a></h4>
-        </section>
+          
 
-        <!-- sign up Options section .................................................................. -->
-        <section class="optio">
-          <div class="ctn google">Continue With Google</div>
-          <div class="ctn microsoft">Continue With Microsoft</div>
-          <div class="ctn phone">Continue With Phone No.</div>
         </section>
-    </section>
       </main>
       <footer></footer>
     </section>
