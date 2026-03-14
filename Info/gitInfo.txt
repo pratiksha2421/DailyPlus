@@ -1,2 +1,2 @@
 To delete a branch 
-git branch -d branchnamegit 
+git branch -d branch_name
