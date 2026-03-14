@@ -22,11 +22,11 @@ body{
     height:1.3em;
     padding: 0.5em;
     font-size: medium;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     justify-self:center;
     border: 1px solid rgb(222, 221, 221);
-    margin: 0.5em;
+    margin:1em;
 }
 .logo{
     border:2px solid white;
@@ -47,7 +47,7 @@ h3{
        
 }
     .btn:hover{
-        background-color: rgb(134, 56, 162);
+        background-color: rgb(235, 235, 235);
         transition: all 0.08s ease-in;
     }
     
@@ -58,24 +58,22 @@ h3{
         letter-spacing: 0.02em
     }
     .special{
-
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+        margin-top: auto;
+        padding-bottom:40px;
+        /* width: 80%; */
     }
-    .Signin{
+   .Signup, .Signin{
         font-weight: 500;
-        padding: 0.5em;
+        padding: 0.6em;
         color: black;
         background-color: #d4d4d4;
         border: 1px solid #f9f9f9;
         border-radius: 10em;
-    }
-    .Signup{
-        font-weight: 500;
-        padding: 0.5em;
-        color: black;
-        background-color: #d4d4d4;
-        border: 1px solid #f9f9f9;
-        border-radius: 10em;
-        border-radius:5em;
+        width:18em;
          
 }
 .display-1, .slogan{
@@ -84,4 +82,14 @@ h3{
 }
 .slogan{
     color: darkgray;
+}
+.Signin:hover{
+    background-color: rgb(134, 56, 162);
+    transition: all 0.08s ease-in;
+    color: white;
+}
+.Signup:hover{
+    background-color: rgb(134, 56, 162);
+    transition: all 0.10s ease-in;
+    color: white;
 }
