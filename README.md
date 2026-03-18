@@ -7,3 +7,6 @@ Figma link: https://www.figma.com/design/nOIVadiRPaahb2AODYvDaG/Habitly---Habit-
 #aapne main page ki jo mobile ki hight or width hai bo fix rakho 
 
 #width:360px; or height:740px;
+
+#font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+sabhi pr ye font use kroo
